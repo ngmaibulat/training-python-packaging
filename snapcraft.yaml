@@ -13,11 +13,11 @@ base: core22
 confinement: strict
 
 parts:
-    salam-python:
+    ngm-salam:
         plugin: python
         source: .
 
 apps:
-    salam-python:
-        command: salam-python
+    salam:
+        command: salam
         plugs: [network, home]

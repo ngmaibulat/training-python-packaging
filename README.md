@@ -1,7 +1,7 @@
 ### Install
 
 ```bash
-pip install ngm-salam==0.0.5
+pip install ngm-salam==0.0.10
 ```
 
 ### Commands:

@@ -1,4 +1,4 @@
-from salam.salam import salam
+from ngm_salam.message import salam
 
 
 def test_salam():

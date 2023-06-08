@@ -19,6 +19,6 @@ parts:
 
 apps:
     salam:
-        command: bin/salam
+        command: bin/salam.py
         # command: build/lib/ngm_salam/__main__.py
         plugs: [network, home]

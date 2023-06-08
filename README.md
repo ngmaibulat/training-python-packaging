@@ -1,7 +1,11 @@
 ### Install
 
 ```bash
-pip install ngm-salam==0.0.10
+echo 'export PATH=$HOME/.local/bin:$PATH' >> ~/.bashrc
+
+sudo apt install python3-pip
+
+pip install ngm-salam
 ```
 
 ### Commands:

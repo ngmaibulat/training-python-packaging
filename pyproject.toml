@@ -1,6 +1,6 @@
 [project]
 name = "ngm_salam"
-version = "0.0.8"
+version = "0.0.9"
 description = "Just a demo project"
 readme = "README.md"
 requires-python = ">=3.10"

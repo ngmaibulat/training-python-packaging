@@ -1,0 +1,23 @@
+name: ngm-salam
+version: '0.0.9'
+# grade: devel
+grade: stable
+summary: Say Salam
+description: |
+    Just say Salam
+    From a Python app
+
+base: core22
+
+# confinement: devmode
+confinement: strict
+
+parts:
+    salam-python:
+        plugin: python
+        source: .
+
+apps:
+    salam-python:
+        command: salam-python
+        plugs: [network, home]
